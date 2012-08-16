@@ -1,24 +1,22 @@
-# ChuckNorris
+# Rack::Chuck
 
-TODO: Write a gem description
+The Rack Chuck middleware adds chuck norris facts in the headers of your rack-based web application.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'chuck_norris'
+    gem 'rack-chuck', github: 'delicious-development/rack-chuck'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install chuck_norris
-
 ## Usage
 
-TODO: Write usage instructions here
+In config/application.rb add:
+
+    config.middleware.use Rack::Chuck
 
 ## Contributing
 
