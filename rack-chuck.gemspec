@@ -3,7 +3,7 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require 'rack/chuck/version'
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Henrik Paulini", "Ben Rexin", "Matthias Bauer", "Waldemar Griebele", "Stefan Rohde"]
+  gem.authors       = ["Henrik Paulini", "Ben Rexin", "Matthias Bauer", "Waldemar Gribele", "Stefan Rohde"]
   gem.email         = ["contact@delicious-development.com"]
   gem.description   = %q{Rack middleware to add chuck norris fact headers}
   gem.summary       = %q{}
