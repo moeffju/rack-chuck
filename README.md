@@ -1,3 +1,6 @@
+# Please use the fork at [delicious-development/rack-chuck](https://github.com/delicious-development/rack-chuck)!
+# This fork is unmaintained!
+
 # Rack::Chuck
 
 The Rack Chuck middleware adds chuck norris facts in the headers of your rack-based web application.
